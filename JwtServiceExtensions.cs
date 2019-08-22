@@ -4,7 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System;
 
-namespace CrashItServer.Extensions.Jwt {
+namespace JwtService {
     public static class JwtServiceExtensions {
 
         public static IServiceCollection AddJwtService(this IServiceCollection services, IConfigurationSection jwtConfigArray) {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
-namespace CrashItServer.Extensions.Jwt {
+namespace JwtService {
     public class JwtConfiguration {
         public string Name;
         public string Issuer;

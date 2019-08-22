@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 
-namespace CrashItServer.Extensions.Jwt {
+namespace JwtService {
     public class JwtService : IJwtService {
 
         private const string SIGNING_ALGORITHM = SecurityAlgorithms.HmacSha256;

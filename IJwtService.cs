@@ -1,7 +1,7 @@
 ﻿using Microsoft.IdentityModel.Tokens;
 using System.Security.Claims;
 
-namespace CrashItServer.Extensions.Jwt {
+namespace JwtService {
     public interface IJwtService {
 
         void AddConfiguration(JwtConfiguration jwtConfiguration);
